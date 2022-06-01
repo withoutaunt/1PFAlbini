@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { ToolbarComponent } from './layout/toolbar/toolbar.component';
 import { EsqueletoComponent } from './layout/esqueleto/esqueleto.component';
+import { AbmComponent } from './abm/abm.component';
+import { ListaComponent } from './lista/lista.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { EsqueletoComponent } from './layout/esqueleto/esqueleto.component';
     NavbarComponent,
     ToolbarComponent,
     EsqueletoComponent,
+    AbmComponent,
+    ListaComponent,
   ],
   imports: [
     BrowserModule,
