@@ -26,7 +26,7 @@ $color5:#EF476F;
   }
   
   /* Ultimo boton- ver como hacer para solo hacer esto en el activo cuando veamos modulos */
-  .topnav a.botonActivo {
+  .topnav a.active {
     background-color: $color4;
     color: $color5;
   }

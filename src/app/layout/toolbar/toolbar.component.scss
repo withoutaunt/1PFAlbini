@@ -1,7 +1,4 @@
 *, :before, :after{ box-sizing: border-box; }
-// FONTS
-$sans: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-
 /* Colores de todo */
 $color1:#073B4C;
 $color2:#118AB2;
@@ -9,27 +6,27 @@ $color3:#06D6A0;
 $color4:#FFD166;
 $color5:#EF476F;
 
-
-// REUSABLE STYLES
 .unstyled{ list-style: none; padding: 0; margin: 0;
   a{ text-decoration: none; }
 }
 .list-inline{ overflow: hidden;
   li{ float: left; }
+
 }
 
 // header con titulo de sitio
 .header{
   position: fixed;
   left: 0; top: 0; bottom: 0; top: 54px;
-  width: 17.5em;
+  width: 150px;
   background: $color2;
 }
 
 .logo{
-  font: 300 2em $sans;
+  font: 300 2em ;
   text-align: center;
   padding: 0; margin: 0;
+  
   
   a{
     display: block;
@@ -38,11 +35,13 @@ $color5:#EF476F;
     text-decoration: none;
     transition: .15s linear color;
     
+    
    
   }
   .logoImage{
     padding-top: 20px;
     height: 200px;
+    
    }
 
 }
@@ -61,7 +60,7 @@ $color5:#EF476F;
   a{
     padding: 1.1em 0;
     color: $color3;
-    font: 400 1.125em $sans;
+    font: 400 1.125em;
     
   }
 }
