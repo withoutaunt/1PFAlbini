@@ -8,6 +8,7 @@ import { ToolbarComponent } from './layout/toolbar/toolbar.component';
 import { EsqueletoComponent } from './layout/esqueleto/esqueleto.component';
 import { AbmComponent } from './abm/abm.component';
 import { ListaComponent } from './lista/lista.component';
+import { Titulos20Directive } from './directives/titulos20.directive';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ListaComponent } from './lista/lista.component';
     EsqueletoComponent,
     AbmComponent,
     ListaComponent,
+    Titulos20Directive,
   ],
   imports: [
     BrowserModule,
